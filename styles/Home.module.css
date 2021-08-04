@@ -1,0 +1,249 @@
+.titleHead {
+  color: red;
+}
+
+.container {
+  margin: 0 !important;
+  padding-top: 85px;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 30px 100px;
+  background-color: rgb(245, 248, 248);
+  margin: 0;
+}
+
+.sideLeft,
+.sideRight {
+  font-family: Nunito Sans;
+  margin: 0;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  background: #f3f5f5;
+}
+
+.sideRight {
+  width: 74%;
+}
+
+.col12 {
+  padding: 0;
+  color: white;
+}
+
+.balance h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.col {
+  background: #6379f4;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+
+.button button img {
+  margin-right: 5px;
+}
+
+.button button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 20px;
+}
+
+.button1 {
+  margin-bottom: 30px;
+}
+
+.info,
+.history {
+  padding: 30px 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+
+.row2 {
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+}
+
+.info {
+  background-color: white;
+  padding: 30px;
+  width: 65.3%;
+}
+
+.info .infoRow {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.info p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.info h5 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3a3d42;
+}
+
+.historyMain {
+  width: 33%;
+  padding: 0;
+}
+
+.history {
+  background-color: white;
+}
+
+.history .nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.history h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3a3d42;
+  margin: 0;
+}
+
+.history label {
+  font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6379f4;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.history label.seeAll:hover {
+  background-color: #6379f4;
+  color: white;
+  cursor: pointer;
+}
+
+.historyCol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.historyCol .myHistory {
+  display: flex;
+}
+
+.myHistory .colHistory {
+  display: flex;
+  flex-direction: column;
+}
+
+.myHistory img {
+  margin-right: 10px;
+  background-blend-mode: normal;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  border: rgb(155, 147, 147) solid 1px;
+}
+
+.historyCol h2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1ec15f;
+}
+
+.historyCol h2.minus {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff5b37;
+}
+
+.historyCol h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff5b37;
+}
+
+.historyCol .colHistory h6 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4d4b57;
+}
+
+.buttonTopup button {
+  background-color: #6379f4;
+  border: #6379f4;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .sideRight {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .historyMain {
+    width: 100%;
+  }
+
+  .history {
+    width: 100%;
+  }
+
+  .history .myHistory {
+    width: 100%;
+  }
+
+  .balance h2 {
+    font-size: 20px;
+  }
+
+  .balance p {
+    font-size: 13px;
+  }
+
+  .balance h6 {
+    font-size: 14px;
+  }
+
+  .button button {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,100 @@
+.container {
+  margin: 0 !important;
+  padding-top: 85px;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 30px 100px;
+  background-color: rgb(245, 248, 248);
+  margin: 0;
+}
+
+.sideRightMain {
+  width: 74%;
+  margin: 0;
+  padding: 0;
+}
+
+.sideRight {
+  font-family: Nunito Sans;
+  margin: 0;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  background: white;
+  padding: 50px;
+}
+
+.sideRight p {
+  margin-top: 50px;
+}
+
+.sideRight h1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3a3d42;
+}
+
+.sideRight .historyCol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sideRight .historyCol h2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1ec15f;
+}
+
+.sideRight .historyCol .myHistory {
+  display: flex;
+  align-items: center;
+}
+
+.sideRight .colHistory {
+  line-height: 22px;
+  color: #4d4b57;
+}
+
+.sideRight .historyCol img {
+  background-blend-mode: normal;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  border: rgb(153, 147, 147) solid 1px;
+}
+
+.sideRight .byWeek,
+.sideRight .byMonth {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.sideRight .historyCol .minus {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .sideRightMain {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .sideRight {
+    padding: 30px;
+  }
+}

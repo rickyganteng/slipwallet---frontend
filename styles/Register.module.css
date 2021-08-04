@@ -1,0 +1,96 @@
+.container {
+  box-sizing: border-box;
+}
+
+.colLeft,
+.colRight {
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.colLeft {
+  padding: 50px 80px;
+  background-color: #6379f4;
+  text-align: center;
+}
+
+.colLeft h1 {
+  font-weight: bold;
+  font-size: 29px;
+  color: #ffffff;
+}
+
+.colLeft h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.colLeft p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.colRight {
+  padding: 10px 80px;
+}
+
+.colRight h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+.colRight h6 {
+  color: rgba(58, 61, 66, 0.6);
+  font-size: 16px;
+  padding: 0 0 10px 0;
+}
+
+.colRight input {
+  border: none;
+  border-bottom: black solid 1px;
+  border-radius: 0;
+  margin: 20px 0 30px 0;
+}
+
+.colRight h4 {
+  color: rgba(58, 61, 66, 0.8);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 30px 0;
+}
+
+.colRight button {
+  width: 100%;
+  background-color: #6379f4;
+}
+
+.colRight h1 {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(58, 61, 66, 0.8);
+  margin: 30px;
+}
+
+.colRight label:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.colRight h1 label {
+  color: #6379f4;
+}
+
+@media only screen and (max-width: 768px) {
+  .colLeft {
+    display: none;
+  }
+
+  .colRight {
+    padding: 50px 40px;
+    width: 100%;
+  }
+}

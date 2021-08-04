@@ -1,0 +1,98 @@
+.container {
+  margin: 0 !important;
+  padding-top: 85px;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 30px 100px;
+  background-color: rgb(245, 248, 248);
+  margin: 0;
+  margin-bottom: 97px;
+}
+
+.sideRightMain {
+  width: 74%;
+  margin: 0;
+  padding: 0;
+}
+
+.sideRight {
+  font-family: Nunito Sans;
+  margin: 0;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  background: white;
+  padding: 50px;
+}
+
+.sideRight h1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3a3d42;
+}
+
+.sideRight p {
+  font-size: 16px;
+  color: #7a7886;
+}
+
+.sideRight form {
+  margin: auto;
+  width: 70%;
+  margin-top: 50px;
+}
+
+.sideRight .inputPin {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sideRight input {
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  border: 1px solid #6379f4;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+  border-radius: 10px;
+}
+
+.sideRight form button {
+  width: 100%;
+  background: #6379f4;
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  border: none;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.sideRight input::-webkit-outer-spin-button,
+.sideRight input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .sideRightMain {
+    width: 100%;
+    /* padding: 10px; */
+    margin-top: 20px;
+  }
+
+  .sideRight {
+    padding: 30px;
+  }
+}

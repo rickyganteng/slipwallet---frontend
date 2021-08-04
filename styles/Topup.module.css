@@ -1,0 +1,260 @@
+.containerMain {
+  padding-top: 85px;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 30px 100px;
+  background-color: white;
+  margin: 0;
+}
+
+.miniTitle {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: -10px !important;
+}
+
+.btnTopup {
+  font-family: Nunito Sans;
+  width: 120px;
+  font-size: 16px;
+  background-color: #6379f4;
+  border: #6379f4 solid 1px;
+}
+
+.modal {
+  border: solid;
+  border-radius: 8px;
+  background-color: white;
+  z-index: 1060;
+}
+
+.btn {
+  height: 50px;
+  border-radius: 8px;
+  background-color: #6379f4;
+  border: #6379f4 solid 1px;
+}
+
+.modalTopup h4 {
+  color: #6379f4;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.inputAmount .input {
+  text-align: center;
+  width: 70%;
+  padding: 5px;
+  border: none;
+  border-bottom: #747474 1px solid;
+  font-size: 26px;
+  color: #6379f4;
+}
+
+.inputAmount .input:focus {
+  outline: none;
+  border-bottom: #6379f4 1px solid;
+}
+
+.inputAmount {
+  text-align: center;
+}
+
+.button {
+  text-align: end;
+}
+
+.button button {
+  border: #6379f4 solid 1px;
+  background-color: #6379f4;
+}
+
+.buttonClose {
+  background-color: white !important;
+  color: red;
+  border: red solid 1px !important;
+  font-family: Nunito Sans;
+  margin-right: 20px;
+}
+
+.buttonClose:hover {
+  background-color: red !important;
+  color: white;
+}
+
+.colRight .inputPin {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colRight input {
+  text-align: center;
+  width: 40px;
+}
+
+.colRight input::-webkit-outer-spin-button,
+.colRight input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.colRight .mb-3 {
+  background-color: #6379f4;
+}
+
+.colRight h4 {
+  color: rgba(58, 61, 66, 0.8);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 30px 0;
+}
+
+.colRight .button {
+  width: 50%;
+  background-color: #6379f4;
+}
+
+.sideRight .button .btn {
+  background: #6379f4;
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  padding: 10px 50px;
+}
+
+.colRight h1 {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(58, 61, 66, 0.8);
+  margin: 30px;
+}
+.colRight h1 label {
+  color: #6379f4;
+}
+
+.colRight label:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.colRight .button {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.semi {
+  /* margin-bottom: -25px; */
+}
+@media only screen and (max-width: 768px) {
+  .row {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .box {
+    border-radius: 10px;
+    height: auto;
+  }
+  .modal {
+    width: 90%;
+  }
+  .breakPoints {
+    display: inline;
+  }
+  .breakPointsRev {
+    display: none;
+  }
+  .btnCustom {
+    background-color: #e5e8ed;
+    height: 50px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+/* @media (min-width: 533.98px) {
+  .box {
+    border-radius: 10px;
+    height: 544px;
+  }
+
+  .modal {
+    width: auto;
+  }
+
+  .semi {
+    font-size: 14px;
+    line-height: 31px;
+    color: #7a7886;
+  }
+
+  .number {
+    font-size: 18px;
+    line-height: 25px;
+    color: #6379f4;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 533px) {
+  .box {
+    border-radius: 10px;
+    height: auto;
+  }
+
+  .modal {
+    width: 90%;
+  }
+
+  .semi {
+    font-size: 11px;
+    line-height: 31px;
+    color: #7a7886;
+  }
+
+  .number {
+    font-size: 14px;
+    line-height: 25px;
+    color: #6379f4;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 997.98px) {
+  .breakPoints {
+    display: inline;
+  }
+  .breakPointsRev {
+    display: none;
+  }
+  .btnCustom {
+    background-color: #e5e8ed;
+    height: 50px;
+    width: 50%;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 997px) {
+  .breakPoints {
+    display: none;
+  }
+  .breakPointsRev {
+    display: inline;
+  }
+  .btnCustom {
+    background-color: #e5e8ed;
+    height: 50px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 12px;
+  }
+} */
