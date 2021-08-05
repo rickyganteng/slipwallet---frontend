@@ -29,7 +29,7 @@ export default function Pin() {
       userPin.pin5 +
       userPin.pin6;
 
-    // proses axios
+console.log(allPin);    // proses axios
     axiosApiIntances
       .patch(`user/pin/${Cookie.get("user_id")}`, { userPin: allPin })
       .then(() => {
