@@ -80,7 +80,7 @@ export default function Success(props) {
       receiverName: props.userReceiver.user_name,
       receiverPhone: props.userReceiver.user_phone,
     };
-    console.log(result);
+    // console.log(result);
     axiosApiIntances
       .post(`transaction/export/${props.user[0].user_id}`, result, {
         headers: {

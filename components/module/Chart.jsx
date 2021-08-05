@@ -3,7 +3,7 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 
 function ChartHome(props) {
-  console.log(props);
+  // console.log(props);
   const listDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
   const dataListDay = props.databy.map((item) => {
@@ -28,7 +28,7 @@ function ChartHome(props) {
   }
 
   const dataPerDay = totalData.map((i) => {
-    console.log(i);
+    // console.log(i);
     return i.total;
   });
 

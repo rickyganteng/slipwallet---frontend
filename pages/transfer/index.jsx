@@ -50,7 +50,7 @@ export default function Home(props) {
   const [search, setSearch] = useState(router.query.search || "");
   const [page, setPage] = useState(1);
   const [limit] = useState(3);
-  const [sort, setSort] = useState("");
+  const [sort, setSort] = useState(router.query.sort||"");
   const [totalPage, setTotalPage] = useState(
     props.receiverData.pagination.totalPage
   );
@@ -66,6 +66,27 @@ export default function Home(props) {
       );
     }
   };
+  const handleSelectedValue = (event) => {
+    // console.log(event.target.value);
+    // if (event.key === "Select") {
+    setSort(event.target.value);
+    setPage(1);
+    router.push(
+      `/transfer?search=${search}&page=${1}&limit=${limit}&sort=${
+        event.target.value}`
+    );
+      // }
+};
+
+
+const handlePageClick = (e) => {
+  const selectedPage = e.selected + 1;
+  setPage(selectedPage);
+  router.push(
+    `/transfer?search=${search}&page=${selectedPage}&limit=${limit}&sort=${
+      sort}`
+  );
+};
 
   useEffect(() => {
     router.push("/transfer");
@@ -100,16 +121,8 @@ export default function Home(props) {
     router.push(`transfer/${id}`);
   };
 
-  const handlePageClick = (e) => {
-    const selectedPage = e.selected + 1;
-    setPage(selectedPage);
-  };
 
-  const handleSelectedValue = () => {
-    var selectBox = document.getElementById("selectBox");
-    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-    setSort(selectedValue);
-  };
+
 
   return (
     <Layout title="Trasfer">

@@ -64,7 +64,7 @@ export async function getServerSideProps(context) {
 
 export default function Home(props) {
 
-  console.log(props);
+  // console.log(props.datatransaction);
   const router = useRouter();
   const [resTransaction, setTransactionData] = useState(props.datatransaction || []);
 
@@ -159,7 +159,9 @@ export default function Home(props) {
                      props.datatransaction.map((item, index) => (
                       <div key={index} className={styles.historyCol}>
                         <div className={styles.myHistory}>
-                          
+                        {/* {JSON.stringify(item.transaction_sender_id)}
+                        {JSON.stringify(item.transaction_receiver_id)} */}
+                          <p></p>
                         {/* {item.length > 0 ? (
                           // {item.user[0].user_image ? (
                           <img

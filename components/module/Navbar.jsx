@@ -21,7 +21,7 @@ function Navbar(props) {
                 alt=""
               />
             ) : (
-              <img src="/icon-default.png" alt="" />
+              <img src="/icon-default.png" alt="gambar" />
             )}
             <div>
               <h5>{props.user[0].user_name}</h5>

@@ -64,7 +64,7 @@
   margin-right: 20px;
   width: 50px;
   height: 50px;
-  border: rgb(153, 147, 147) solid 1px;
+  /* border: rgb(153, 147, 147) solid 1px; */
 }
 
 .sideRight .byWeek,

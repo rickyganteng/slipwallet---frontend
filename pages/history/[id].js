@@ -64,7 +64,7 @@ export async function getStaticProps(context) {
 }
 
 export default function History(props) {
-  console.log(props)
+  // console.log(props)
   const { getTransactionByWeek, getTransactionByMonth } = props;
   return (
     <Layout title="History">
@@ -81,15 +81,15 @@ export default function History(props) {
                   {getTransactionByWeek.map((item, index) => (
                     <div key={index} className={styles.historyCol} >
                       <div className={styles.myHistory}>
-                        {/* <p>{item.user[0].user_name}</p> */}
-                        {item.user.length > 0 ? (
+                        {/* {JSON.stringify(item.user[0].user_image)} */}
+                        {item.user[0].user_image ? (
                           // {item.user[0].user_image ? (
                           <img
                             src={`http://localhost:3004/backend4/api/${item.user[0].user_image}`}
                             alt=""
                           />
                         ) : (
-                          <img src="/icon-default.png" alt="" />
+                          <img src="/icon-default.png" alt="gambar" />
                         )}
                         <div className={styles.colHistory}>
                           {/* <h6>{item.user[0].user_name}</h6> */}
@@ -128,7 +128,7 @@ export default function History(props) {
                         )} */}
 
                         {/* <p>{item.transaction_id}</p> */}
-                        {item.user.length > 0 ? (
+                        {item.user[0].user_image ? (
                           // {item.user[0].user_image ? (
                           <img
                             src={`http://localhost:3004/backend4/api/${item.user[0].user_image}`}
