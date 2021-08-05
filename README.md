@@ -1,13 +1,13 @@
 <h1 align='center'>Next JS - Slipwallet</h1>
   <p align="center">
-    <a href="">View Demo</a>
+    <a href="slipwalletfrontend-qcpx9o835-slipwallet.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com">Report Bug</a>
+    <a href="https://github.com/rickyganteng/slipwallet---frontend/issues">Report Bug</a>
     ·
-    <a href="https://github.com">Request Feature</a>
+    <a href="https://github.com/rickyganteng/slipwallet---frontend/pulls">Request Feature</a>
   </p>
 
-![Image Banner](/public/smartmockups_kr29ovjc.jpg)
+![Image Banner](/public/.jpg)
 
 ## About The Project
 
