@@ -42,7 +42,7 @@ function Login(props) {
           allowOutsideClick: false,
         }).then((result) => {
           if (result.isConfirmed) {
-            router.push("/createpin");
+            router.push("/");
           }
         });
       })
