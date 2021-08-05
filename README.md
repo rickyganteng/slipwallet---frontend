@@ -11,7 +11,7 @@
 
 ## About The Project
 
-This is a web e-wallet useful for saving money used for online transactions
+slipwallet is the best solution for web-based money transactions to make it easier for users when there is a problem.
 
 ## Built With
 
