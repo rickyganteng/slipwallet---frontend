@@ -25,7 +25,7 @@ slipwallet is the best solution for web-based money transactions to make it easi
 
 1. <a href="https://nodejs.org/en/download/">Node Js</a>
 2. Node_modules `npm install` or `yarn install`
-3. Backend API [`here`](https://github.com)
+3. Backend API [`here`](https://github.com/rickyganteng/slipwallet---backend)
 
 ## Getting Started
 
